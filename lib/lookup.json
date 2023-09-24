@@ -488,6 +488,9 @@
     "prefix": "v",
     "maintainers": "mafintosh"
   },
+  "tough-cookie": {
+    "maintainers": ["awaterma", "colincasey", "ruoho", "wjharney"]
+  },
   "uglify-js": {
     "prefix": "v",
     "flaky": ["ppc", "darwin"],
