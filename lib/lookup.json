@@ -1,6 +1,6 @@
 {
   "@babel/core": {
-    "maintainers": "nicolo-ribaudo",
+    "maintainers": ["nicolo-ribaudo", "JLHwung", "liuxingbaoyu"],
     "prefix": "v",
     "yarn": true,
     "scripts": ["build", "test"],
