@@ -109,6 +109,7 @@ Options:
   --excludeTags tag1 tag2     Specify which tags to skip from the lookup (takes priority over includeTags)
                               Module names are automatically added as tags.
   -y, --yarn                  Install and test the project using yarn instead of npm
+  --pnpm                      Install and test the project using pnpm instead of npm
 ```
 
 When using a JSON config file, the properties need to be the same as the
@@ -141,6 +142,7 @@ For syntax, see [lookup.json](./lib/lookup.json), the available attributes are:
 "useGitClone": true          Use a shallow git clone instead of downloading the module
 "ignoreGitHead":             Ignore the gitHead field if it exists and fallback to using github tags
 "yarn":                      Install and test the project using yarn instead of npm
+"pnpm":                      Install and test the project using pnpm instead of npm
 "timeout":                   Number of milliseconds before timeout. Applies separately to `install` and `test`
 ```
 
