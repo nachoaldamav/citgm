@@ -380,6 +380,14 @@
     "maintainers": "mcollina",
     "skip": ["aix", "s390x"]
   },
+  "pnpm": {
+    "prefix": "v",
+    "head": true,
+    "maintainers": ["zkochan"],
+    "scripts": ["compile-only", "test-main"],
+    "envVar": { "PNPM_WORKERS": 3 },
+    "pnpm": true
+  },
   "prom-client": {
     "prefix": "v",
     "maintainers": ["siimon", "zbjornson", "SimenB"],
