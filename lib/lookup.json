@@ -384,8 +384,8 @@
     "prefix": "v",
     "head": true,
     "maintainers": ["zkochan"],
-    "scripts": ["compile-only", "test-main"],
-    "envVar": { "PNPM_WORKERS": 3 },
+    "scripts": ["test-main"],
+    "envVar": { "PNPM_WORKERS": 10 },
     "pnpm": true
   },
   "prom-client": {
