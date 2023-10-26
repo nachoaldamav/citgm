@@ -385,8 +385,9 @@
     "head": true,
     "maintainers": ["zkochan"],
     "scripts": ["test-main"],
-    "envVar": { "PNPM_WORKERS": 10 },
-    "pnpm": true
+    "envVar": { "PNPM_WORKERS": 3 },
+    "pnpm": true,
+    "sha": "f0d4f71347ca0fb2ada0bd871880da541311eb87"
   },
   "prom-client": {
     "prefix": "v",
